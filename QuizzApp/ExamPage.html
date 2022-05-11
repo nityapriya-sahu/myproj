@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Quiz Page</title>
+        <link rel="stylesheet" href="style1.css">
+    </head>
+
+    <body style="background: silver;" onload="exampage()">
+        <script src="LogInPage1.js"></script>
+
+
+
+        <!-- <form>
+            <img src="default-user-profile-picture.jpg">
+            <label><b>Name:</b> Nityapriya Sahu </label><br>
+            <label><b>Email:</b> snitya@gmail.com</label>
+        </form><br><br><br> -->
+
+        <div class="profile">
+            <div class="profileArea"><span class="profile_img"><img src="default-user-profile-picture.jpg"></span></div>
+            <span class="details"><b>Name: <span id="profile_name"></span></span>
+            <span class="details">Email: <span id="profile_email"></span></span>
+            <div class="logout"><button type="button" onclick="logout()">Log Out</button></div>
+        </div>
+
+        <div style="background-color:#419D78;
+        color:#EFD0CA;
+        font-size:20px;
+        text-align:center;" id="TimeContainer">Time left = <span id="timer"></span>
+        </div>
+
+        <div id="bodyContainer">
+            <form>
+                <div >Total Questions: 10</div>
+                <div >Current Questions: <span id="currentQues"></span></div>
+            </form><br><br><br>
+    
+            <form>
+                <div>Que: <span id="que"></span></div>
+                <div style="text-align: center;"><input type="text" placeholder="Write your Answer" id="ans"></div>
+                <input type="button" value="submit" onclick="loadQuestionOnSubmit()">
+                <input type="button" value="Skip" onclick="loadQuestionOnSkip()">
+            </form>
+    
+            <div class="buttons">
+                <button class="quit" onclick="abort()">Abort Exam</button>
+    
+            </div>
+        </div>
+        
+        <div class="restart">
+            <button class="restartExam" onclick="restartExam()">Restart Exam</button>
+        </div>
+
+
+    </body>
+</html>

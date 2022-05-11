@@ -1,0 +1,128 @@
+body{
+    background-color: burlywood;
+    
+    
+    }
+    .signup_box{
+    width: 360px;
+    height: 620px;
+    margin: auto;
+    border-radius: 3px;
+    background-color: white;
+    }
+    
+    .login_box{
+        width: 360px;
+        height: 270px;
+    margin: auto;
+    border-radius: 3px;
+    }
+    
+    h1{
+        text-align: center;
+        padding-top: 15px;
+    }
+    
+    form{
+    width: 300px;
+    margin-left: 20px;
+    
+    }
+    
+    form label{
+        margin-top: 20px;
+        font-size: 18px;
+        display: flex;
+    }
+    
+    form input{
+        width: 100%;
+        padding: 7px;
+        border: none;
+        border: 1px solid gray;
+        border-radius: 6px;
+        outline: none;
+    }
+    
+    input[type=button]{
+        width: 320px;
+        height: 35px;
+        margin-top: 20px;
+        border: none;
+        background-color: #49c1a2;
+        color: white;
+        font-size: 18px;
+    }
+    
+    .submit_btn{
+        width: 320px;
+        height: 35px;
+        margin-top: 20px;
+        border: none;
+        background-color: #49c1a2;
+        color: white;
+        font-size: 18px;
+    }
+    
+    p{
+        text-align: center;
+        padding-top: 20px;
+        font-size: 15px;
+    }
+    
+    /*-----------------------------------------*/
+    
+    /* .countdown{
+        padding-left: 70%;
+    }
+    
+    #quesCount{
+        text-align: center;
+    } */
+    
+    /* .quit{
+        margin: 10px 250px;
+        background-color: brown;
+        color: cornsilk;
+    } */
+    
+    .profile{
+        display: inline-flex;
+    
+        /* background-color: aqua;
+        grid-template-areas: 
+            'profile_image details space space space logout'; */
+    }
+    .profileArea{
+        height: 100%;
+        width: 100%;
+    }
+    
+    .profile_img img{
+        /* height: 30%; */
+        /* grid-column-start: 1;
+        grid-column-end: 1; */
+        /* grid-area: profile_image; */
+        width: 15%;
+    }
+    
+    .details{
+        /* grid-column-start: 2;
+        grid-column-end: 2; */
+        /* grid-area: details; */
+    }
+    
+    .profile button{
+        /* grid-column-start: 6;
+        grid-column-end: 6; */
+        /* grid-area: logout; */
+    }
+.quit{
+    margin: 10px 250px;
+    background-color: brown;
+    color: cornsilk;
+}
+
+/* .quizSection{
+
+} */

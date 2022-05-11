@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>TODO App</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+
+    <body style="background-color: slategrey;">
+        <header >
+            <h1 style="margin-left: 40%; color: rgb(38, 0, 209);">TODO - List</h1>
+            <form id="new-task-form">
+                <input
+                    type="text"
+                    name="new-task-input"
+                    id="new-task-input"
+                    placeholder="Enter Your Task Here..." />
+                <input style="font-weight:bold ;"
+                    type="submit"
+                    id="new-task-submit"
+                    value="ADD TASK"/>
+            </form>
+            <div id="error_message" style="color: red;"></div>
+        </header>
+        <main>
+            <section class="task-list">
+                <h2 style="margin-left: 40%; ;">Tasks</h2>
+                <div id="tasks">
+
+                </div><br><br>
+                <div id="empty_msg" style="color: tomato; font-style: italic; font-weight: bolder; margin-left: 37%;">
+
+                </div>
+            </section>
+            <section id="removeAll_section" onclick="removeAllData()">
+                <br><br><br>
+
+            </section>
+        </main>
+        <script src="script.js"></script>
+    </body>
+
+
+</html>

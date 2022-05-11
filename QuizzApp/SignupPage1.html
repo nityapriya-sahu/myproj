@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Sign Up</title>
+        <link rel="stylesheet" href="style1.css">
+    </head>
+
+    <body>
+        <script src="LogInPage1.js"></script>
+        <div class="signup_box">
+            <h1>Sign Up</h1>
+            <form autocomplete="off">
+                <label>First Name</label>
+                <input type="text" name="fname" id="fname"  placeholder="" required>
+                <label>Last Name</label>
+                <input type="text" name="lname" id="lname" placeholder=""required>
+                <label>Email</label>
+                <input type="email" name="email" id="email"  placeholder=""required>
+                <label>Password</label>
+                <input type="password" name="pwd" id="pwd"  placeholder=""required>
+                <label>Confirm Password</label>
+                <input type="password" name="cpwd" id="cpwd"  placeholder=""required>
+                <input type="button" value="Submit" onclick="signUp()">
+                <!-- <button class="submit_btn" onclick="signUp()">Sign Up</button> -->
+            </form>
+            <div id="signup_msg" style="text-align: center; font-weight: bold;">
+
+            </div>
+        </div>
+
+        <p>Already have an Account? <a href="LogInPage1.html">LogIn Here</a></p>
+    </body>
+</html>
